@@ -1,0 +1,36 @@
+.call-to-action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 717px;
+    margin-top: 56px;
+    margin-bottom: 70px;
+    text-align: center;
+    box-sizing: border-box;
+    gap: 24px;
+}
+
+.call-to-action h1 {
+    font-family: "Instrument Sans Bold";
+    font-size: 32px;
+    background-image: linear-gradient(to right, #46BEF5, #9561FC);
+    color: transparent;
+    -webkit-background-clip: text;
+}
+
+.call-to-action p {
+    color: #C4CAD3;
+}
+
+@media screen and (max-width: 783px) {
+    .call-to-action {
+        width: 90%;
+        max-width: none;
+    }
+
+    .call-to-action a {
+        width: 100%;
+    }
+}

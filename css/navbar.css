@@ -1,0 +1,73 @@
+.navbar {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #191b2132;
+    backdrop-filter: blur(10px);
+    padding: 16px 0px;
+}
+
+.navbar .nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 1440px;
+}
+
+.navbar .nav-container .brand-image {
+    width: 154px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 1550px) {
+    .navbar .nav-container {
+        width: 90%;
+    }
+}
+
+.navbar .nav-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 24px;
+}
+
+.navbar .nav-buttons a.call-to-action-btn {
+    padding: 16px 40px;
+}
+
+.navbar .nav-buttons a.ldin-btn {
+    padding: 16px;
+    border: none;
+    border-radius: 16px;
+    background-color: #ffffff08;
+}
+
+.navbar .nav-buttons a.ldin-btn img {
+    width: 24px;
+    object-fit: cover;
+}
+
+.navbar .nav-buttons a.call-to-action-btn.mobile {
+    display: none;
+}
+
+@media screen and (max-width: 520px) {
+    .navbar .nav-buttons a.call-to-action-btn.mobile {
+        display: flex;
+        padding: 16px;
+    }
+
+    .navbar .nav-buttons a.call-to-action-btn {
+        display: none;
+    }
+}

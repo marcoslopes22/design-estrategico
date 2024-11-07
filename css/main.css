@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+*::selection {
+    color: #191B21;
+    background-color: #46BEF5;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #191B21;
+}
+
+@font-face {
+    font-family: "Instrument Sans Regular";
+    src: url("../src/fonts/Instrument_Sans/InstrumentSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Instrument Sans Medium";
+    src: url("../src/fonts/Instrument_Sans/InstrumentSans-Medium.ttf");
+}
+
+@font-face {
+    font-family: "Instrument Sans Bold";
+    src: url("../src/fonts/Instrument_Sans/InstrumentSans-Bold.ttf");
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: "Instrument Sans Bold";
+    line-height: 120%;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+p {
+    font-family: "Instrument Sans Medium";
+    line-height: 140%;
+    font-size: 20px;
+}

@@ -1,0 +1,40 @@
+.works {
+    position: relative;
+    z-index: 2;
+    top: -40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.works img {
+    width: 408px;
+    object-fit: cover;
+    transition: .2s ease-in-out;
+}
+
+.works img:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+@media screen and (max-width: 648px) {
+    .works {
+        width: 90%;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .works img {
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 648px) {
+    .works {
+        top: 0;
+    }
+}

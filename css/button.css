@@ -1,0 +1,20 @@
+a.call-to-action-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #202124;
+    background-image: linear-gradient(to right, #25E6B3, #24E32D);
+    font-family: "Instrument Sans Bold";
+    text-decoration: none;
+    font-size: 20px;
+    border: none;
+    border-radius: 16px;
+    padding: 24px 56px;
+    box-sizing: border-box;
+}
+
+a.call-to-action-btn:hover {
+    cursor: pointer;
+}
