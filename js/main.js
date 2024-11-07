@@ -32,5 +32,5 @@ function openImage(imageId) {
     document.body.style.overflow = "hidden";
 
     const mainImage = document.getElementById("main-image");
-    mainImage.src = `./src/img/works/${imageId}.png`;
+    mainImage.src = `./src/img/works/${imageId}.webp`;
 };
