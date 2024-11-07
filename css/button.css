@@ -14,8 +14,10 @@ a.call-to-action-btn {
     padding: 24px 56px;
     box-sizing: border-box;
     box-shadow: 0 0 30px #23b95e80;
+    transition: .2s ease-in-out;
 }
 
 a.call-to-action-btn:hover {
     cursor: pointer;
+    transform: scale(1.04);
 }
