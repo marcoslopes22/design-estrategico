@@ -61,7 +61,7 @@
     display: none;
 }
 
-@media screen and (max-width: 520px) {
+@media screen and (max-width: 665px) {
     .navbar .nav-buttons a.call-to-action-btn.mobile {
         display: flex;
         padding: 16px;
